@@ -67,6 +67,5 @@ int[,] arr2D = Create2DArray(col, row);
 int low = GetIncomingData("Введите нижнюю границу значений элементов массива");
 int high = GetIncomingData("Введите верхнюю границу значений элементов массива");
 Fill2DArray(arr2D, low, high);
-Console.WriteLine("Массив до сортировки");
 Print2DArray(arr2D);
 Console.WriteLine($"{GetRowMinSumm(arr2D)} строка");
